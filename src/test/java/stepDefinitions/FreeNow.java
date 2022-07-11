@@ -26,7 +26,7 @@ public class FreeNow  {
 	@Before
 	public void browserLaunch() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/circleci/project/src/test/resources/Driver/chromedriver.exe");
 		driver = new ChromeDriver();			
 	}
 	

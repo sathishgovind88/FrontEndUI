@@ -21,3 +21,44 @@ Please find the below UI validations using automation scripts.
   
 I have executed the automation scripts in locally its executed successfully and deployed the scripts into Circleci server 
 but due to server folder configuration error was thrown "Driver is not executable" though browser driver exe is placed in the project folder
+
+Part 1(Front End test challenge test)
+Test Strategy - Multi Mobility App
+
+Taxi
+    Accuracy of Data - We need to test data accuracy in multiple points this will include data of the customer,driver,trip details,offers and fares.
+    Integrated Payment and Wallet - We need to test integrated payment gateway for every rides the payment should be done
+    
+    Customer Perspective
+    	User and driver Registration
+	Map and live tracking
+	Time tracking
+	OTP
+	Payment transaction and history
+	Trip modification
+	Cab sharing
+	Driver and cab details
+	Search offers
+	Feedback and rating system
+	
+     Driver Perspective
+     	Driver data
+	Trip visibility options
+	Benefits and history
+	Hiding customer data
+	
+Transport Tickets
+	Filling the train/bus details From station,to station,departure date,list of available trains/bus are displayed
+	Users can search for trains/bus by name,from to stations for checking the status
+	Search results have details,timings and availability
+	Clicking searching results and its routed to details of the page
+	User is able to see availability of seats.
+	User able to see train/bus fares for different types of seats
+	User is able to select one or more seat
+	If the Seats are booked already the user should not be able select the same seats
+	User selects seats enters the passengers details then does the payment then selected seats should be booked
+	Users can downlod/print the ticket
+	User should receive the SMS for tickets confirmation
+	If User cancel the ticket the amount should be refunded
+	
+	
